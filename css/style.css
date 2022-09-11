@@ -1858,7 +1858,7 @@ footer .box3 .content p {
 }
 footer .box4 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
@@ -1883,6 +1883,11 @@ footer .foot {
   }
   footer .container .box2 ul {
     padding: 0 40px;
+  }
+}
+@media (max-width: 991px) {
+  footer .box3 {
+    padding: 35px 0;
   }
 }
 /* end footer */
